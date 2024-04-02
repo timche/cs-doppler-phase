@@ -1,0 +1,8 @@
+{
+	"extends": "@sindresorhus/tsconfig",
+	"compilerOptions": {
+		"outDir": "./dist/esm",
+		"declaration": false
+	},
+	"files": ["./src/index.ts"]
+}

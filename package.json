@@ -1,0 +1,28 @@
+{
+	"name": "cs-doppler-phase",
+	"version": "1.0.5",
+	"description": "Get the phase of a Counter-Strike Doppler skin",
+	"license": "MIT",
+	"repository": "timche/cs-doppler-phase",
+	"author": "Tim Cheung <tim@cheung.io>",
+	"exports": {
+		"types": "./dist/index.d.ts",
+		"import": "./dist/esm/index.js",
+		"require": "./dist/cjs/index.js"
+	},
+	"engines": {
+		"node": ">=12"
+	},
+	"scripts": {
+		"test": "vitest",
+		"build": "tsc && tsc --module commonjs --moduleResolution node --outDir ./dist/cjs && tsc --outDir ./dist --declaration --emitDeclarationOnly"
+	},
+	"files": ["dist"],
+	"keywords": ["counter-strike", "cs", "doppler", "phase"],
+	"devDependencies": {
+		"@biomejs/biome": "1.6.3",
+		"@sindresorhus/tsconfig": "^5.0.0",
+		"typescript": "^5.4.3",
+		"vitest": "^1.4.0"
+	}
+}
