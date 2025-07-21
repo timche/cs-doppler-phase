@@ -4,7 +4,7 @@ import { getDopplerPhase } from "./";
 test("returns `phase1`", () => {
 	expect(
 		getDopplerPhase(
-			"-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfxPrMfipP7dezhr-KmsjwPKvBmm5D19V5i_rEpLPigVC7vCwwOj6rYJjHcAFtN1mB_1TryevvjJTu7p6bwHJjunIhsH6PzRzlgE0YbrA9gaSaVxzAUM53KYio",
+			"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1M5vahf6lsK_WBMWad_up5oPFlSjuMhRUmoDjUpZjwJSTQAVp5Xco0W7UItUPuk4XiMr_q4gXXidkXzn73jipJvCw-4r1QWPEkr_DX2lrFYLAjoc5U3elI6r0",
 		),
 	).toBe("phase1");
 });
