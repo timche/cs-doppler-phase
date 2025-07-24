@@ -26,7 +26,7 @@ getDopplerPhase("test")
 
 ### `getDopplerPhase(iconUrl)`
 
-Returns `phase1`, `phase2`, `phase3`, `phase4`, `ruby`, `sapphire` or `blackpearl` if `iconUrl` matches a phase or `null` if not.
+Returns `Phase 1`, `Phase 2`, `Phase 3`, `Phase 4`, `Ruby`, `Sapphire` or `Black Pearl` if `iconUrl` matches a phase or `null` if not.
 
 #### `iconUrl`
 
