@@ -12,7 +12,7 @@ const phases = {
 const iconUrlPhaseMap: {
 	[iconUrl: string]: (typeof phases)[keyof typeof phases];
 } = {
-	// Talon Knife | Doppler
+	// 1. Talon Knife | Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1M5vahf6lsK_WBMWad_up5oPFlSjuMhRUmoDjUpZjwJSTQAVp5Xco0W7UItUPuk4XiMr_q4gXXidkXzn73jipJvCw-4r1QWPEkr_DX2lrFYLAjoc5U3elI6r0":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1M5vahf6lsK_WBMWad_up5oPFlSjuMhRUmoDjXpZjwJSTQAVp5Xco0W-MOsxPpkILlN-zmtg3YiYlEz3qqiyxAuHw55ecHUaAl8qDR3A7EOOUjoc5UCy3x4c0":
@@ -28,7 +28,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1M5vahf6lsK_WBMWad_ux6seJiXyyyhxEYvjyXmIP8KDHCOml8U8UoAfkC4UbuldyzNOy35lHc3opEyS2qhiocvHs_5bsHVPIgq_bQhgrBM7w9_9Bdc1T7Obpq":
 		phases.blackPearl,
 
-	// Stiletto Knife | Doppler
+	// 2. Stiletto Knife | Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I-_uibbB5L8-SA1iUzv5mvOR7cDm7lA4i4gKJk4jxNWXEbwAgX5RwQucPuhPrmobhN-2z4w3c2IkQyiz2jC0c7C04tusKUPIn5OSJ2D2EqjOB":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I-_uibbB5L8-SA1iUzv5mvOR7cDm7lA4i4QKJk4jxNWWRblMkAsRwELJf4RK8kNDlZbuxtFDX3o5EyC_7h3sb6XxrsO0GAvEh5OSJ2JbXapRd":
@@ -44,7 +44,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I-_uibbB5L8-SA1iSze91u_FsTju_qhAmoT-Jn4bjJC_4Ml93UtZuFrJbtRW_xNDhYbyxsgWKioJCxS7-jCga7Sto6usFUfIkq6bS3gCTMap9v8f8BQu6Gg":
 		phases.blackPearl,
 
-	// Ursus Knife | Doppler
+	// 3. Ursus Knife | Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1O_eG7e5tsLc-XAXeAzetkj_FhTjq2xCIrujqNjsGrcnKTbgQjWZRyFuEL4EO4xoXuY-7n71bY2YtGxH35jSga6Cs4sboLT-N7rSrR5rr3":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1O_eG7e5tsLc-XAXeAzetkj_FhTjq2xyIrujqNjsH6dHORbFMiW5QlQ7EMtEK-m9fjZurh5QGMjdgXm3j43y1OuCY_57tUT-N7rRKbF8ni":
@@ -60,7 +60,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1O_eG7e5tsLc-RAmaTyv5zsfNlcCSyhx8rtjSfn4vGLSLANkI-C5IiRrQN5BaxktbgNOrksVOPj9gRnin-jS8fvX4_6-kAAqNx8vLQiRaBb-PCt4gg5w":
 		phases.blackPearl,
 
-	// Navaja Knife | Doppler
+	// 4. Navaja Knife | Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1c9uK9cZtnIfOYBWmZx-tJsexWSyajhREioQKVko7qJHr4Ml93UtZuQ-ALs0O_koWzN-vr5wzaioNNzCyt2i5P6y856-9RUadzrKDS2wzEZKp9v8dpzTWWrA":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1c9uK9cZtnIfOYBWmZx-tJsexWSyajhREioQKVko7qJHn4Ml93UtZuFOFcthixx9PnNLvr4FeKid0QxCn82i4cuCo94OdTWPcgq6TVhgDIZap9v8c93PrlJQ":
@@ -76,7 +76,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1c9uK9cZtnIfOYBWmZx-tJsexWTSWylhY3tjyXlrD0IDnFMlN5QMckKrtT5Uj8jILvNu7r4VfZj4gTySX_33gc6i5r475RBPAh_vKBjQrIZ7Q45sEHJ_y5DUPZghIomjw":
 		phases.blackPearl,
 
-	// Huntsman Knife | Doppler
+	// 5. Huntsman Knife | Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1P7vG6YadsLM-SA1iUzv5mvOR7cDm7lA4i4gKJk4jxNWXEa1V1CpR1FOQD4xK4xNzhN-6w5AXX3opCn3ivjy1N6C9t67xUU_Jw5OSJ2AqihnPi":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1P7vG6YadsLM-SA1iUzv5mvOR7cDm7lA4i4QKJk4jxNWXBag91D5JxRu8N5hC_mtflP-6x7gSMio5Nnius2i1Avypisr0CVadx5OSJ2A8DtsQk":
@@ -92,7 +92,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1P7vG6YadsLM-SA1iSze91u_FsTju_qhAmoT-Jn4bjJC_4Ml93UtZuE7UDuhC-mtbnNb-xtFfZ3YtGzSv6hisauns-5b5WVqIgqKDfjwjEYKp9v8eb6jzRvA":
 		phases.blackPearl,
 
-	// Falchion Knife | Doppler
+	// 6. Falchion Knife | Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1d7v6tYK1iLs-SA1iUzv5mvOR7cDm7lA4i4gKJk4jxNWXBaQMpDZMjRu4ItxTsmoa0PrjrtQHWj4NNnH38hi1A7Xpt5-kBB_Zw5OSJ2M_vVPun":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1d7v6tYK1iLs-SA1iUzv5mvOR7cDm7lA4i4QKJk4jxNWXBaAEnX5R0ELJb5EK5moa1MOyw7gSNj4tBnyT4hi4d5idr4O4GA6px5OSJ2IVStUtw":
@@ -108,7 +108,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1d7v6tYK1iLs-SA1iSze91u_FsTju_qhAmoT-Jn4bjJC_4Ml93UtZuQLECtxDrkIHlMem041aP2ohHmymsjSkaun49te9UAKp3-PWBjg-QNqp9v8frwaFCRg":
 		phases.blackPearl,
 
-	// Bowie Knife | Doppler
+	// 7. Bowie Knife | Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I-uC4YbJsLM-RAXCZxNF3vd5tQDmjmRg1jC2Nm5z8cBTLN1F4TowmEeFct0WxkIayNe7ksQOKiIwXyH35jCIb63xo47kAB6Vz8qPR2lmQL_Rjti6PPai2":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I-uC4YbJsLM-RAXCZxNF3vd5tQDmjmRg1jC2Nm5z8cxTLN1F4TowiELQMtkG_ldDvNOri4VDXioMTxC6s2CJN7C1osOtXAqMk__eCiV2UL_RjtoCtKbyV":
@@ -124,7 +124,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I-uC4YbJsLM-RAXCZxNF3vd5rQyiwng0isi-JpYL4MynLO19qX8YfGb5d6lSmxt2yZeLq5QeI2dgWzSmsjiMauyxr5O4LB6Ej-6PXjVyQZLc54pZRJOHnE0pg4-kgmA":
 		phases.blackPearl,
 
-	// Shadow Daggers | Doppler
+	// 8. Shadow Daggers | Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1L-uGmV6VgH_ScHnecxPxJoOloXCziqhEutDWR1Nmgd3yUZwMgCZQmRuVfthW8x9WxNOi05g2Ij48UnC323SxPu3s5t-ocEf1yJR6gz8E":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1L-uGmV6VgH_ScHnecxPxJoOloXCzhqh8YvzSCkpu3I37BOAAiCZR1RbUO5BLtwNzhZOy04VeKg44WmCWq3CJB73xp4rkFVr1lpPNoRdm_rA":
@@ -140,7 +140,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1L-uGmV6VgH_KfD2Sb0et3ou1WQiihlxEiuieAnrD7HifOOV5kFJZ2TbMNtES-xobhY-rj4lTd39gRny_2jiIf6C5u67oHBasm-PXRjADfcepqXuISEy4":
 		phases.blackPearl,
 
-	// Butterfly Knife | Doppler
+	// 9. Butterfly Knife | Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Z-ua6bbZrLOmsD2qvxeFmoO1sXRajnRw0tmy6lob-KT-JOgRzAsZ3RuNfs0a5x9HhYuLj4gbbg99NySr6iy4d6C9t4r0EUqF0qLqX0V8wFp5G5A":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Z-ua6bbZrLOmsD2qvxeFmoO1sXRajnRw0tm-6mLD1KCzPKhh2DMckEeYNshC6koe1Munq5AbbitgTyyX6jixL7i5qteYLA6Mh-vWGkUifZkSF3e67":
@@ -156,7 +156,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Z-ua6bbZrLOmsD2qvw-J3s-p5SiihmSIqsi-HlorwOy7DAVRPVssnHaMUuhe9xIHlMuvqtgPf2IoTyC383Sod7CY-sr4DVfZ2qKPU3g-TNuE-545DeqjFvb87vg":
 		phases.blackPearl,
 
-	// Karambit | Doppler
+	// 10. Karambit | Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Q7uCvZaZkNM-SA1iUzv5mvOR7cDm7lA4i4gKJk4jxNWXFb1cpDJR2FOFbsBTql9bjYbzq7gPZiN1MxH7_2ytNuCdpte1UB_Ui5OSJ2GbkVqni":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Q7uCvZaZkNM-SA1iUzv5mvOR7cDm7lA4i4QKJk4jxNWWXawUgA8dxRLEO40KwkobnMbnj5QKL348Qmy-sji5K7i466uxUUKQn5OSJ2KBZjkQR":
@@ -172,7 +172,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Q7uCvZaZkNM-SA1iSze91u_FsTju_qhAmoT-Jn4bjJC_4Ml93UtZuRLQPsBawkNfiMbnl5AKMiopCnin7iCJBv31j4rkBBKEg-6zUjV3GY6p9v8dpLWT3Fg":
 		phases.blackPearl,
 
-	// M9 Bayonet | Doppler
+	// 11. M9 Bayonet | Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Wts2sab1iLvWHMWad_up5oPFlSjuMhRUmoDjUpYPwJiPTcA8nCcZ1EOcDu0Lum9CzZO6w4Fbeg4wQxX392ykb6yc4troKAPIm-6fJz1aWPFsIQnE":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Wts2sab1iLvWHMWad_up5oPFlSjuMhRUmoDjXpYPwJiPTcFR0D8Z3F-Nb4xS6x4DjNe2x5A3eiNpMzyr6jCpPvHk95O0GAKpz-fbJz1aWGfxjapk":
@@ -188,7 +188,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Wts2sab1iLvWHMWad_ux6seJiXyyyhxEYvjyXmIP8KDHCOml8U8UoAfkItRCwl9XnNe207lCN2t1EzXr93ClN5yc_5L5UVaRxr6HSjQGXYrc9_9BdcwX6MBne":
 		phases.blackPearl,
 
-	// Bayonet | Doppler
+	// 12. Bayonet | Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLzn4_v8ydP0POjV6BiMOCfC3Wv0eZ3o-Q4cCW6khUz_TvWmIygcnnGaVIlC5N5QOINt0S8lYDkMOu2sgTWgoxExCmqi3hN7i11o7FV2n5aQD4":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLzn4_v8ydP0POjV6BiMOCfC3Wv0eZ3o-Q7cCW6khUz_TjRnNesInvCZ1chXsZ0FLZfsEKxltOyZOzitQLdj40WnCSq3SpO5yt1o7FVDNJZV5E":
@@ -204,7 +204,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLzn4_v8ydP0POjV6ZhIfOYHmKR0-JJveB7TSW2nAcitwKJk4jxNWWVZ1AmDJIlQuZcu0btx9e0Y-205gOL3dhGzS333CpBvHxi6ucEBfcg5OSJ2MqXuBCE":
 		phases.blackPearl,
 
-	// Flip Knife | Doppler
+	// 13. Flip Knife | Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1d4_u-V6VgH_ScHnecxPxJoOloXCziqhEutDWR1Nf6JHmfPw4kDsQkEeBbtRTsw9CyMu_nslPeg4wRmH2qhy9K7nxp4ukcEf1yIYwwFPU":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1d4_u-V6VgH_ScHnecxPxJoOloXCzhqhEutDWR1NesJX_BPQV0CsckQeMLtRbrlNOzY-3i41DbitlEzyv2jiob6CZt5ekcEf1ySivHiG0":
@@ -220,7 +220,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1d4_u-V6VgH_KfD2Sb0et3ou1WQiihlxEiuieAnrD1KCzPKhh0CpN4FuICtEK4xoKxNbjq4gaM3dhCzSn-2i5I7346sesBVqF3_a3SkUifZq_j0qfR":
 		phases.blackPearl,
 
-	// Gut Knife | Doppler
+	// 14. Gut Knife | Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1c-uaRaalSJP-DHmuV09FmuOB6SniMmRQguynLmYmpeCjEPwYhDJF4R-AMsEO-l9exPrjm5gzWjowWmSz323lNuCY65_FCD_QON0IPhg":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1c-uaRaalSJP-DHmuV09FmuOB6SnuMmRQguynLzYqtd3uXawNxAsAmReINt0S9kNW1N-Pk5lOIiNlNnCio2yNN6Hs-sfFCD_S11dClsg":
@@ -236,7 +236,71 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1c-uaRaalSIvySDWyAxO9kvN5kTjuxmRguqTiBpYPwJiPTcFInDpVyELMOshO9wYHvZujk5VPagotHnC6viixLui5jsr1XWKcgqKTJz1aW4QQYg2A":
 		phases.blackPearl,
 
-	// Falchion Knife | Gamma Doppler
+	// 15. Skeleton Knife | Doppler
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-SA1iUzv5mvOR7cDm7lA4i4gKJk4jxNWWRbwR0XpokQuJYthW6kdXmZu_h5wHZ2YMRmC6s3X9IuH5i5r0LVasj5OSJ2E5r5oFO":
+		phases.phase1,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-SA1iUzv5mvOR7cDm7lA4i4QKJk4jxNWWTZg5zDpV4R-QOsEO7lNa2NL_h41Da34tCyCiqhyxN6yxv4OoBVqcs5OSJ2Fw1OS4C":
+		phases.phase2,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-SA1iUzv5mvOR7cDm7lA4i4AKJk4jxNWWSPA51DZomRuECtka6lYDhZbm3tQGI3d0XmS_4hysd63ltt-kHAKF35OSJ2Jqs4QDO":
+		phases.phase3,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-SA1iUzv5mvOR7cDm7lA4i5wKJk4jxNWWSbQ8iDsMkQ7QLtUO7kNXmZLy24wLZjYwQyy6v2y5Nvy9t67oCVKN05OSJ2CIEz_WG":
+		phases.phase4,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-SA1iC1Oxvj-xoXSu_kBQ9tjm6lob-KT-JPVAnCJojELJetUG5wIC1ZLjr7wXXgolFmCivjXhN7Hxi4-YEUKok87qX0V8jai52PA":
+		phases.ruby,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-SA1iDwP5muOh7Sha-lA8lvziMgIr9HifOOV5kFJN4FOMPtRi9wdK2MuvksVPa34NMyyX62C0a7Ho_5-pWBaQtrqXfjFzfcepq5_yhcsc":
+		phases.sapphire,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-SA1iSze91u_FsTju_qhAmoT-Jn4bjJC_4Ml93UtZuR7JYtEO-mtzjN-_gs1DXjN9MyHr92n4d7S89sL4AWaR2_vbSigzFZKp9v8c7W1qI3g":
+		phases.blackPearl,
+
+	// 16. Nomad Knife | Doppler
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_GeMWOf0f56tfNWXyGyhhh2jDGMnYftb3mSbQF0A5NzEbMI5BO4l4bvNujh5gPaj95Mzy75iStI7ito5-tXVvY7uvqAlag3iO0":
+		phases.phase1,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_GeMWOf0f56tfNWXyGyhhh1jDGMnYftby6SPAV2X8N3Q7NcsEa_lNezMuPq5wzY2IpHmHn6j3tNvytq5OhXBaY7uvqAC7ut2F0":
+		phases.phase2,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_GeMWOf0f56tfNWXyGyhhh0jDGMnYftb3rDbQcmCsMlQrEP5xTsxIa2Yuy2tVDdjIITyi352iob7C1j47tUBfA7uvqAy8gEoCY":
+		phases.phase3,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_GeMWOf0f56tfNWXyGyhhhzjDGMnYftbyqeblVzX5ohROZbtxfpxNDvZOjmsVSKj98Wzi_5jilO6ilose8GBKE7uvqAQvAc2Rg":
+		phases.phase4,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_GeMXWFw_dJveB7TSW2nAcitwKJk4jxNWWVOlUiWZt0RO4MtkW8ldK2ML7i4wHW2t9Bm3n2iH5Kv3pttuwBU6Rw5OSJ2BsJTr2y":
+		phases.ruby,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_GeMXSR0f5-ufNscCSyhx8rtjSfn4vGLSLANkI-DZF4E7EL4xiwxILgMLni41SM3o8Uz3j4h3tJ6ik_sO9WU_F3-KPUjRaBb-NU6ZNx2A":
+		phases.sapphire,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_GeMWWcwO19oORoXSWMmBw1sTGAk5X8JRTLN1F4TowlROMLuxe8k9DjP-rj4QONjNhAnCuojiNLvytpt-pRUPci-PffilzIL_Rjtq5H6bYu":
+		phases.blackPearl,
+
+	// 17. Survival Knife | Doppler
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y7vyne5tsLc-XAXeAzetkj_FhTjq2xCIrujqNjsH8eX-TbAYpCZElTeFcs0a8x9eyP7uxsVOM2o8RziuojC4c5i9u4u8BT-N7rRTkBvdt":
+		phases.phase1,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y7vyne5tsLc-XAXeAzetkj_FhTjq2xyIrujqNjsH8dy6SbgFyXMAlQLIMtELuxNTuY77j51Hc3YJGyCX_insa6C5ot-5QT-N7rXTHzhfD":
+		phases.phase2,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y7vyne5tsLc-XAXeAzetkj_FhTjq2xiIrujqNjsH_IHmVbw4gDpIlF7Nb5kO4k9CzZr_q5FbaiopNyyqoii0cvSZjsOcKT-N7rcPcFrXZ":
+		phases.phase3,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y7vyne5tsLc-XAXeAzetkj_FhTjq2wSIrujqNjsH_J3jDZlV1AsAmE-QNtxG6koCxY-mx41bcjo9CnC35inkb6C06tb5QT-N7rTRepqpg":
+		phases.phase4,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y7vyne5tsLc-BG2WJ_uN3ouNlSiCpkBkYvzSCkpu3dnLGOFMmXJJ5FLMC5Ba-w4CzP763tFHZ3Y8Xnir73yJB6So4sOtUU71lpPMvbRQrHg":
+		phases.ruby,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y7vyne5tsLc-AD3eAyedktd5kTjuxmRguqTiBpYPwJiPTcAUjCpohTOYPtES7ldzvYrjl5laLi4JBnC_6iS1PvHtst7wDV_Ui-fLJz1aWWu-XwP8":
+		phases.sapphire,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y7vyne5tsLc-RAmaTyv5zsfNlcCSyhx8rtjSfn4vGLSLANkI-CJQjFrQJsxHrktfjMu6z5gbYi49FyS-rh3lJuHxst7oLAvci-PDehxaBb-MyRwuVrw":
+		phases.blackPearl,
+
+	// 18. Paracord Knife | Doppler
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6VgH_ScHnecxPxJoOloXCziqhEutDWR1Nv6JHuXbQUpCpIkQe8KsBjsxNLgYevltlTe3olHyHiv3StK73pqtugcEf1yeFJGil8":
+		phases.phase1,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6VgH_ScHnecxPxJoOloXCzhqhEutDWR1In_cimXOAMpAsRyROdethi7xtbmPuu0sgDW2N4UxS2v3S9OuC9t5bkcEf1y7nwgVpQ":
+		phases.phase2,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6VgH_ScHnecxPxJoOloXCzgqhEutDWR1N38IiqfZwd1CMF5EeEOskaxlNWxNeLq5gCPjIJNyn322ykduH054-ccEf1ylmda9Aw":
+		phases.phase3,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6VgH_ScHnecxPxJoOloXCznqhEutDWR1Nz7eSnCOwEpA5twQu4CsRe8ltyzMOrntAaM3dpMzS2siypK7CY54-4cEf1yr5PbGSk":
+		phases.phase4,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6VgH-KGDH6vzO9ksu1sRjO2kSIrujqNjsH6cnzCagN0DsciELRf4Be-x9OxZbjmtAOKgt8Uny_7jCoavy4-474FT-N7rYiv01su":
+		phases.ruby,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6VgH-OSHneYyPxzj-xoXSu_kBQ9tjm6lob-KT-JbQEkC8dxFLFYthK-x9TgMeyx5Q2Pjo1DzC6r3ClNuCc94OhWVKoiqbqX0V_9YbYNGA":
+		phases.sapphire,
+	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6VgH_KfD2Sb0et3ou1WQiihlxEiuieAnrD1KCzPKhh1WcB3F-IPu0O4x9HnMO62tA3bj9gWmCz6i3lNui5i67kHWKYmq_CCkUifZiWg2J7C":
+		phases.blackPearl,
+
+	// 1. Falchion Knife | Gamma Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1d7v6tYK1iLs-SA1iXwON7sd5tQDmjmRg1jC2Nm5z8cBTLN1F4TowmFu4P4xaxkIHjMOrhs1CLjo5FxCj83XxN6Cs_6upWUKJ3_PLShg6SL_RjttqUSV6v":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1d7v6tYK1iLs-SA1iXwON7sd5tQDmjmRg1jC2Nm5z8cxTLN1F4ToxxF-4P4BTtl4DvZem04wbejY5AyyqsjS0a6Xw4tuYFVvcmrvfRhw2TL_RjttGzwP08":
@@ -248,7 +312,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1d7v6tYK1iLs-SA1iVzOtkse1tcCSyhx8rtjSfn4vGLSLANkI-WZEiR-cOu0Hrm9S1Nunm41PejopGny_-iStBuys5sukBVvYjrqTV2RaBb-OVFNXjzg":
 		phases.emerald,
 
-	// Huntsman Knife | Gamma Doppler
+	// 2. Huntsman Knife | Gamma Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1P7vG6YadsLM-SA1iXwON7sd5tQDmjmRg1jC2Nm5z8cBTLN1F4Tox4R7JZs0bsldLnMurg5VfWg4wUyyn72yhIuiY6tu1UBaAlrKDT2Q3HL_Rjtkcw7QQm":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1P7vG6YadsLM-SA1iXwON7sd5tQDmjmRg1jC2Nm5z8cxTLN1F4TowiQ-MD5xe_moa1P-7ltA2IjIlNz3_7jiwd5yw44-YLB6Zzr6LWjQ6VL_RjttkcOtMw":
@@ -260,7 +324,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1P7vG6YadsLM-SA1iVzOtkse1tcCSyhx8rtjSfn4vGLSLANkI-A5d0Q7EI4BPqwdHlNe3m4Q3Zj4IQnn6s2ilJ6y5i5r4AU_cg-qaBiBaBb-MAj17m6g":
 		phases.emerald,
 
-	// Bowie Knife | Gamma Doppler
+	// 3. Bowie Knife | Gamma Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I-uC4YbJsLM-RAXCZxNF3vd5uTiS-lCIjvC2VlorrHjvPP0V1C_0sHLBS9g67l9G0Mu_q5ATZ3t1BxSn6in5B6yc9t7kHBaFw_aPQ3QiTNLQ_ssICOr_5Gko8dFgH":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I-uC4YbJsLM-RAXCZxNF3vd5uTiS-lCIjvC2VlorrHjvPP0V1CP0sHLBS9g7tl4fgPujh71CNg91En36si3kY6ns-4OlQWfclqPbQ21zHZbVp4ZdWOr_5GrvoSFRK":
@@ -272,7 +336,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I-uC4YbJsLM-RAXCZxNF3vd5sQiyhlBEjjDCEiI31JCLdO1JPVssnHaMU4EG-ltyyPuLq5gHYj9lMzyz7hyxNuCs-5OoDVKImrKTe21mXZ-Zu5I5Deqhh5Zn_hA":
 		phases.emerald,
 
-	// Shadow Daggers | Gamma Doppler
+	// 4. Shadow Daggers | Gamma Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1L-uGmV6VgH_eSA2qR_up5oPFlSjuMhRUmoDjUpYPwJiPTcAIhApZzQ7EN5BexxobmYbmw7lDb2d9FyiT6iSgcvC9ssb4KVqJ0qPHJz1aWdVHoWzY":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1L-uGmV6VgH_eSA2qR_up5oPFlSjuMhRUmoDjXpYPwJiPTcAQnD8YhTbML50btkobnNu7m5ACL2owRzHj62igYvy1q5-tRUaEt-KbJz1aWfS6Wzvg":
@@ -284,7 +348,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1L-uGmV6VgH_WeC3WRzepJveB7TSW2nAcitwKJk4jxNWWXaAYgXMBwEe5btxKwx9O1Pu-0tg3ZjN1Bzi782iwa6i1otroAVqAh5OSJ2JW4jdt1":
 		phases.emerald,
 
-	// Butterfly Knife | Gamma Doppler
+	// 5. Butterfly Knife | Gamma Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Z-ua6bbZrLOmsD2qvxu97veBWSyajhREioQKVko7qJHr4Ml93UtZuF7EMshHumoXnY76w4wLe2IxAn3r3iXhO6Sxj6rkBAvZ3-KOBjV2TNqp9v8eAgEBjpg":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Z-ua6bbZrLOmsD2qvxu97veBWSyajhREioQKVko7qJHn4Ml93UtZuF-AK4USwmtS2Nei05w2NjNoQzCX9iXwavHo-57oKVfFw__GFjVvGNKp9v8f8XHnkNg":
@@ -296,7 +360,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Z-ua6bbZrLOmsD2qvxONzouBlSxa-lA8lvziMgIr9HifOOV5kFJp2Ee9b4Rntm4GxY7_ntQHc2o1DmH6r3Hgcv3w4t-pXU6ZzrPHQjQnfcepq0dwfRJw":
 		phases.emerald,
 
-	// Bayonet | Gamma Doppler
+	// 6. Bayonet | Gamma Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLzn4_v8ydP0POjV6NsLf2SMWOf0f56tfNWXyGyhhh2jDGMnYftb3KfOlVxDpt5RbRf5ES8kdfhZenq7lPc3tgQySj5hyNL53k9troLUvI7uvqAwkE80cI":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLzn4_v8ydP0POjV6NsLf2SMWOf0f56tfNWXyGyhhh1jDGMnYftby7FbARxDZUkF7NfsUK5lYbmZO3ktAWKj40Qznn_intPvX1i5e4DVfI7uvqAz_bVj6c":
@@ -308,7 +372,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLzn4_v8ydP0POjV6FgJeKSAmOvzO9ksu1sRjO2kSIrujqNjsGsJCnFaVUpDpt4EeQLtxjrl9PhMujjtAXf3YNFxSuoii1K7ihi5LwGT-N7rXo8KYhp":
 		phases.emerald,
 
-	// Flip Knife | Gamma Doppler
+	// 7. Flip Knife | Gamma Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1d4_u-V6VgH_eSA2qR_up5oPFlSjuMhRUmoDjUpYPwJiPTcAQmD5YkQbVf4US-kIaxNO7ktAGMiooWnn-v3CxOv3pv5r5QUKMn_6HJz1aWfAqhZnY":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1d4_u-V6VgH_eSA2qR_up5oPFlSjuMhRUmoDjXpYPwJiPTcAB2DZclFOMLtRm5xt3kZOu35wDa3Y9Bynn8jX5Auydttu5RB6t3qa3Jz1aWbPfUfuc":
@@ -320,7 +384,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1d4_u-V6VgH_WeC3WRzepJveB7TSW2nAcitwKJk4jxNWWWPVdzA5pyQeQCsEG9wNXiYey3sQbcjIhMzi73jy4duCprt-5QWKoh5OSJ2FqzBf3_":
 		phases.emerald,
 
-	// Gut Knife | Gamma Doppler
+	// 8. Gut Knife | Gamma Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1c-uaRaalSJ_GeA2avxeFmoO1sXRajnRw0tmy6lob-KT-JbwN0WZR2Re5fuxXswdKxP-Kx5Qzdj9hCnn6qiyIb5yc45-1QA6Ut_LqX0V-_N17M0A":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1c-uaRaalSJ_GeA2avxeFmoO1sXRajnRw0tm-6lob-KT-JOwEgDcN2EOEDsBnumtG1N-nr7wHc2ItAySStiC8auC9p5-1XVKUk87qX0V8XtbYmPA":
@@ -332,7 +396,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1c-uaRaalSJf2WHGacxdF7sfNrQyy6jxgjjDGMnYftby-ROwEmXMciQeUDt0Prkt3hMeKwsQKP2ogRzyWqiy4b6So_5-YBU6Q7uvqAIJUtHr4":
 		phases.emerald,
 
-	// M9 Bayonet | Gamma Doppler
+	// 9. M9 Bayonet | Gamma Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Wts2sab1iLvWHMWad_ul3vexocC28hQ0rti-6iof4Mi6WAVp5Xco0W7IMsxGwkdDuYbm0sVHeg49Fziz_h3lP6y5o4-dTUfYh8qXW2wCUYrwjoc5UyoohxGw":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Wts2sab1iLvWHMWad_ul3vexocC28hQ0rti-6iof4Mi6VAVp5Xco0W7ZbshTuxoLnM-mxtgaP3t1EmXr4jCoa6ChqsuxQAKQnqaeFigvDM7Ejoc5UDoFmlio":
@@ -344,7 +408,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Wts2sab1iLvWHMWad_ut7tfNoQy2MmBw1sTGAk5X8JRTLN1F4Tox1QedZ50O5ktbhNuLrsgLb349FniiviH4b7S0-6-kHVfAjqayCjQrHL_Rjti0DtNMm":
 		phases.emerald,
 
-	// Karambit | Gamma Doppler
+	// 10. Karambit | Gamma Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Q7uCvZaZkNM-SA1iXwON7sd5tQDmjmRg1jC2Nm5z8cBTLN1F4TowkROZctEXqxNO2Nevn4QzZ2I9Mz3r62C9L634_5uhTWKEh_fKD2w7HL_RjthCBcAWy":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Q7uCvZaZkNM-SA1iXwON7sd5tQDmjmRg1jC2Nm5z8cxTLN1F4ToxzRbQMukK6k4HnZe3k4gPW34hFmCWrjCgd5yk55-1RBfB0rq2D2w7FL_RjtjtuH2jv":
@@ -356,7 +420,7 @@ const iconUrlPhaseMap: {
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Q7uCvZaZkNM-SA1iVzOtkse1tcCSyhx8rtjSfn4vGLSLANkI-X8MjTLFYskTsw9bnZOuwsgSIj4sTniz-2i5A7yY6tbwGV6Nx-qGEjxaBb-MuPavopw":
 		phases.emerald,
 
-	// Glock-18 | Gamma Doppler
+	// 11. Glock-18 | Gamma Doppler
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL2kpnj9h1a4s2paalgIc-XAXeAzetkj_FhTjq2xCIgvzKGkbD1KCzPKhhzD5d3QORbuxjrk4C1NLzm5Abcj44Uyi342HlI6ixi5edRAKp0-KGBkUifZrIv8MDM":
 		phases.phase1,
 	"i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL2kpnj9h1a4s2paalgIc-XAXeAzetkj_FhTjq2xyIgvzKGkbD1KCzPKhgnC5pwTLNYsRLrlNXlMe-05gDZ3toWyCmqhyhP5y9r6udQWKIk__XUkUifZoShMfFw":
