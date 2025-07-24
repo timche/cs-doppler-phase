@@ -1,6 +1,6 @@
 {
 	"name": "cs-doppler-phase",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"description": "Get the phase of a Counter-Strike Doppler skin",
 	"license": "MIT",
 	"repository": "timche/cs-doppler-phase",
